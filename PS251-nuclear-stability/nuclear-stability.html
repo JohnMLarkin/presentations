@@ -487,7 +487,7 @@ a_A &amp; = 23.285\ \mathrm{MeV}
 <div class="olist upperalpha"><ol class="upperalpha" type="A"><li><p>It has more nucleons on the surface.</p></li><li><p>It has greater electrostatic repulsion.</p></li><li><p>The nucleus is more asymmetric.</p></li><li><p>Other <span class="icon"><i class="fa fa-star"></i></span></p></li></ol></div></div></div>
 <div class="openblock column"><div class="title"><strong>Explanation</strong></div><div class="content"><div class="paragraph"><p>Certain <em>magic number</em> are more stable than would be expected from the semi-empirical binding energy formula. This is similar to filled orbitals for atoms.</p></div>
 <div class="paragraph"><p>A class in nuclear physics would get into more sophisticated models that include those effects.</p></div></div></div></div></section></section>
-<section id="_the_end" data-background-color="black" data-background-image="carbon-nucleus-artsy.jpg" data-background-size="contain"><h2>The End</h2></section></div></div><script src="../../node_modules/reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<section id="_the_end" data-background-color="black" data-background-image="carbon-nucleus-artsy.jpg" data-background-size="contain"><h2>The End</h2></section></div></div><script src="../dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
@@ -645,8 +645,8 @@ Reveal.initialize({
 
   // Optional libraries used to extend on reveal.js
   dependencies: [
-      { src: '../../node_modules/reveal.js/plugin/zoom/zoom.js', async: true, callback: function () { Reveal.registerPlugin(RevealZoom) } },
-      { src: '../../node_modules/reveal.js/plugin/notes/notes.js', async: true, callback: function () { Reveal.registerPlugin(RevealNotes) } }
+      { src: '../plugin/zoom/zoom.js', async: true, callback: function () { Reveal.registerPlugin(RevealZoom) } },
+      { src: '../plugin/notes/notes.js', async: true, callback: function () { Reveal.registerPlugin(RevealNotes) } }
   ],
 });</script><script>var dom = {};
 dom.slides = document.querySelector('.reveal .slides');
@@ -711,7 +711,7 @@ Reveal.addEventListener('ready', function () {
 });
 Reveal.addEventListener('resize', function () {
   layoutSlideContents(1920, 1080)
-});</script><link rel="stylesheet" href="../../node_modules/reveal.js/plugin/highlight/monokai.css"/>
+});</script><link rel="stylesheet" href="../plugin/highlight/monokai.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/highlight.min.js"></script>
 
 <script>
@@ -1150,7 +1150,7 @@ hljs.configure({
   ignoreUnescapedHTML: true,
 });
 hljs.highlightAll();
-</script><script src="../../node_modules/reveal.js-menu/menu.js"></script>
+</script><script src="../reveal.js-menu/menu.js"></script>
 <script>
   Reveal.initialize({
     plugins: [ RevealMenu ],
@@ -1228,7 +1228,7 @@ hljs.highlightAll();
     // when 'themes' is set to 'true'. If you provide your own
     // list of themes or 'themes' is set to 'false' the
     // 'themesPath' option is ignored.
-    themesPath: '../../node_modules/reveal.js/dist/theme/',
+    themesPath: '../dist/theme/',
 
     // Specifies if the transitions menu panel will be shown.
     // Set to 'true' to show the transitions menu panel with
