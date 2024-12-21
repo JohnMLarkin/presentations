@@ -7,9 +7,9 @@
 :stem: latexmath
 :source-highlighter: highlight.js
 // Local development version
-// :revealjsdir: ..
+:revealjsdir: ..
 // Github-hosted version
-:revealjsdir: ../../node_modules/reveal.js
+// :revealjsdir: ../../node_modules/reveal.js
 :revealjs_width: 1920
 :revealjs_height: 1080
 :revealjs_theme: night
